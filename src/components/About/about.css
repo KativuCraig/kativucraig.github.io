@@ -1,0 +1,172 @@
+.about__container{
+    justify-items: right;
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+    width: 90%;
+}
+
+.section__title{
+  margin-left: 10%;
+}
+.about__data {
+padding: 1.875rem;
+background-color: var(--container-color);
+box-shadow: var(--shadow);
+border-radius: var(--border-radius);
+grid-template-columns: repeat(2, 1fr);
+column-gap: 1.875rem;
+align-items: flex-start;
+position: relative;
+}
+
+.about__data::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;  
+    border-right: 15px solid var(--container-color);
+    position: absolute;
+    left: -0.93rem;
+    top: 20%;
+}
+
+.about__description{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.about__skills{
+    row-gap: 1.25rem;
+    
+}
+
+.skills__title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-bold);
+}
+
+.skills__number{
+    line-height: 1.2;
+}
+
+.skills__bar, .skills__percentage{
+    height: 7px;
+    border-radius: 0.25rem;
+}
+
+.skills__bar{
+    background-color: #f1f1f1;
+}
+
+.skills__percentage{
+    display: block; 
+}
+
+.Development{
+    width: 90%;
+    background-color:rgb(5, 146, 174); ;
+}
+
+.HTML{
+    width: 85%;
+    background-color:rgb(5, 146, 174); ;
+}
+
+.UI{
+    width: 80%;
+    background-color:rgb(5, 174, 146); ;
+}
+
+.SQL{
+    width: 70%;
+    background-color:rgb(5, 174, 160); ;
+}
+
+.Node{
+    width: 65%;
+    background-color:rgb(66, 71, 203); ;
+}
+
+
+.about__boxes{
+    margin-left: 15%;
+    grid-template-columns: repeat(3, 9fr);
+    column-gap: 0.5rem;
+    margin-top: 4.35rem;
+}
+
+.about__box{
+    display: flex;
+    column-gap: 1.5rem;
+
+}
+
+.about__icon{
+    font-size: var(--h1-font-size);
+    color: #dedeea;
+}
+
+.about__title{
+    font-size: 1.875rem;
+}
+
+
+
+@media screen and (max-width :650px) {
+    .about__data {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    
+}
+
+.btn{
+    font-size: 12px;
+    padding-inline: 0.5rem;
+}
+.about__container{
+    width: 100%;
+}
+
+.about__container{
+    justify-items: center;
+    grid-template-columns: 1fr;
+    column-gap: 0rem;
+    width: 100%;
+}
+.about__data .grid, .about__boxes.grid{
+    display: flex;
+    flex-direction: column;
+
+}
+.about__container img{
+    display: none;
+}
+
+.about__description{
+    font-size: 12px;
+}
+
+.skills__data, .skills__name{
+    font-size: 12px;
+}
+
+.about__title{
+    font-size: 23px;
+}
+
+.section__title{
+    font-size: 20px;
+}
+
+.skills__number{
+    padding-right: 5px;
+}
+}
