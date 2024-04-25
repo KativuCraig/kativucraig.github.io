@@ -2,7 +2,7 @@
   
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/KativuCraig/MyPortfolio.github.io",
+  "homepage": "https://kativucraig.me",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
