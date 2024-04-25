@@ -17,7 +17,7 @@ const About = () => {
               applications using React, Node.js, Express, and MongoDB. I am
               always eager to learn new technologies and improve my skills.
             </p>
-            <a href="https://drive.google.com/file/d/1vXuIcyiFwAyji4KKAatS7u7o9Dpw01G7/view?usp=sharing" className="btn" target="_blank" rel="noreferrer">Download CV</a>
+            <a href="https://drive.google.com/file/d/1vXuIcyiFwAyji4KKAatS7u7o9Dpw01G7/view?usp=sharing" download className="btn" target="_blank" rel="noreferrer">Download CV</a>
           </div>
         
         <div className="about__skills grid">
